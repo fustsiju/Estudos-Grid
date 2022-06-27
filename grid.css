@@ -41,108 +41,108 @@
     /* A primeira linha com 50px, segunda com 150px e terceira com 100px. A primeira coluna com 100px, a segunda 1fr e a terceira com 50px.*/
 
     /*----------gap---------*/
-    gap: 20px
+    gap: 20px;
     /* Define 20px entre os elementos do grid (linha e coluna).*/
-    column-gap: 20px
+    column-gap: 20px;
     /* Define 20px de distância entre as colunas.*/
-    row-gap: 20px
+    row-gap: 20px;
     /* Define 20px de distância entre as linhas.*/
     /*----------grid-auto-columns---------*/
-    grid-auto-columns: 100px
+    grid-auto-columns: 100px;
     /* As colunas implícitas, geradas automaticamente, terão 100px de largura.*/
 
     /*----------grid-auto-rows---------*/
-    grid-auto-rows: 100px
+    grid-auto-rows: 100px;
     /* As linhas implícitas, geradas automaticamente, terão 100px de altura.*/
 
     /*----------grid-auto-flow---------*/
-    grid-auto-flow: row
+    grid-auto-flow: row;
     /* Automaticamente gera novas linhas.*/
-    grid-auto-flow: column
+    grid-auto-flow: column;
     /* Automaticamente gera novas colunas.*/
-    grid-auto-flow: dense
+    grid-auto-flow: dense;
     /* Tenta posicionar o máximo dos elementos que existirem nas primeiras partes do grid (pode desorganizar o conteúdo).*/
 
         /*----------grid---------*/
-    grid: 100px / 1fr 1fr
+    grid: 100px / 1fr 1fr;
     /* Gera uma linha com 100px de altura e 2 colunas com 1fr.*/
-    grid: 100px / auto-flow 100px 50px
+    grid: 100px / auto-flow 100px 50px;
     /* Gera uma linha com 100px de altura. O grid-auto-flow é definido como column (pois está logo antes da definição das colunas). Ele também define o grid-auto-columns com 100px 50px.*/
     
     /*----------justify-content---------*/
-    justify-content: start
+    justify-content: start;
     /* Justifica os itens ao início.*/
-    justify-content: end
+    justify-content: end;
     /* Justifica os itens ao final.*/
-    justify-content: stretch
+    justify-content: stretch;
     /* Estica os itens.*/
-    justify-content: space-around
+    justify-content: space-around;
     /* Distribui espaço entre os elementos. (O início e final são menores que os espaços internos).*/
-    justify-content: space-between
+    justify-content: space-between;
     /* Cria um espaço entre os elementos, ignorando o início e final.*/
-    justify-content: space-evenly
+    justify-content: space-evenly;
     /* Cria um espaço igual entre as colunas (no início e final também).*/
-    justify-content: center
+    justify-content: center;
     /* Centraliza o conteúdo.*/
 
         /*----------align-content---------*/
-    align-content: start
+    align-content: start;
     /* Alinha os itens ao início.*/
-    align-content: end
+    align-content: end;
     /* Alinha os itens ao final.*/
-    align-content: stretch
+    align-content: stretch;
     /* Estica os itens.*/
-    align-content: space-around
+    align-content: space-around;
     /* Distribui espaço entre os elementos. (O início e final são menores que os espaços internos).*/
-    align-content: space-between
+    align-content: space-between;
     /* Cria um espaço entre os elementos, ignorando o início e final.*/
-    align-content: space-evenly
+    align-content: space-evenly;
     /* Cria um espaço igual entre as colunas (no início e final também).*/
-    align-content: center
+    align-content: center;
     /* Centraliza o conteúdo.*/
 
         /*----------justify-items---------*/
-    justify-items: start
+    justify-items: start;
     /* Justifica os itens ao início.*/
-    justify-items: end
+    justify-items: end;
     /* Justifica os itens ao final.*/
-    justify-items: center
+    justify-items: center;
     /* Centraliza o conteúdo.*/
-    justify-items: stretch
+    justify-items: stretch;
     /* Estica os itens.*/
 
         /*----------align-items---------*/
-    align-items: start
+    align-items: start;
     /* Alinha os itens ao início.*/
-    align-items: end
+    align-items: end;
     /* Alinha os itens ao final.*/
-    align-items: center
+    align-items: center;
     /* Centraliza o conteúdo.*/
-    align-items: stretch
+    align-items: stretch;
     /* Estica os itens.*/
 
         /*----------grid-column---------*/
-    grid-column: 1
+    grid-column: 1;
     /* O item ocupará a coluna 1.*/
-    grid-column: 1 / 3
+    grid-column: 1 / 3;
     /* O item ocupará a coluna 1 e 2 (Sim, isso mesmo, 1 e 2, pois os valores 1 / 3 são referentes as linhas da coluna. Isso significa que começa na linha 1 (início do grid) e vai até a linha 3, que é o começo da terceira coluna).*/
-    grid-column-start: 2
+    grid-column-start: 2;
     /* O item vai começar na linha 2.*/
-    grid-column-end: 4
+    grid-column-end: 4;
     /* O item vai terminar na linha 4.*/
-    grid-column: span 2
+    grid-column: span 2;
     /* O item irá ocupar duas colunas a partir de onde ele estiver.*/
 
         /*----------grid-row---------*/
-    grid-row: 1
+    grid-row: 1;
     /* O item ocupará a linha 1.*/
-    grid-row: 1 / 3
+    grid-row: 1 / 3;
     /* O item ocupará a linha 1 e 2 (Sim, isso mesmo, 1 e 2, pois os valores 1 / 3 são referentes as linhas do grid. Isso significa que começa na linha 1 (início do grid) e vai até a linha 3 do grid, que é o começo da terceira linha).*/
-    grid-row-start: 2
+    grid-row-start: 2;
     /* O item vai começar na linha do grid 2.*/
-    grid-row-end: 4
+    grid-row-end: 4;
     /* O item vai terminar na linha do grid 4.*/
-    grid-row: span 2
+    grid-row: span 2;
     /* O item irá ocupar duas linhas a partir de onde ele estiver.*/
 
         /*----------grid-area---------*/
@@ -156,22 +156,22 @@
     Vai posicionar o item na área definida como header.*/
 
         /*----------justify-self---------*/
-    justify-self: start
+    justify-self: start;
     /* Justifica o item ao início.*/
-    justify-self: end
+    justify-self: end;
     /* Justifica o item ao final.*/
-    justify-self: center
+    justify-self: center;
     /* Centraliza o conteúdo.*/
-    justify-self: stretch
+    justify-self: stretch;
     /* Estica o item.*/
 
         /*----------align-self---------*/
-    align-self: start
+    align-self: start;
     /* Alinha o item ao início.*/
-    align-self: end
+    align-self: end;
     /* Alinha o item ao final.*/
-    align-self: center
+    align-self: center;
     /* Centraliza o conteúdo.*/
-    align-self: stretch
+    align-self: stretch;
     /* Estica o item.*/
 }
